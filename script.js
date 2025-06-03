@@ -293,11 +293,8 @@ const sections = {
     <p>Nous avons avancé étape par étape, en construisant un jeu jouable de manière incrémentale. Afin de suivre l’évolution du projet, nous avons mis en place un système de versionnage maison au format x.y : x pour les évolutions majeures (ajout des règles, gestion des captures, etc.), et y pour les améliorations mineures (optimisation, corrections de bugs, esthétique...).</p>
     <p>Le plateau et les pions étaient dessinés de façon responsive, s’adaptant dynamiquement à la taille de la fenêtre. À la fin du projet en binôme, nous avions une version fonctionnelle, bien que non optimisée. Cependant, avec l’évolution de Python et de Tkinter, certaines parties de ce code ne sont aujourd’hui plus compatibles.</p>
     <br>
-    <div class="container">
-        <video controls class="cinquante">
-            <source src="https://drive.google.com/file/d/1z5b1SLEHLHIAM103Uab2vvuEJUsmBfPE/view?usp=sharing" type="video/mp4">
-            Votre navigateur ne prend pas en charge la lecture de vidéo.
-        </video>
+    <div class="video-container">
+        <iframe  src="https://www.youtube.com/embed/84_zolDAywM" title="dame" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <br>
     <p>En Terminale, dans le cadre d’un projet encadré et évalué, j’ai choisi de reprendre ce jeu en solo pour en proposer une refonte complète. J’ai retravaillé toute la structure du code, amélioré la logique du jeu et soigné l’ergonomie, toujours avec Tkinter. Ce projet m’a permis de renforcer ma maîtrise de la programmation orientée objet, de la gestion d’interfaces graphiques, ainsi que des principes de modularité et maintenabilité du code.</p>
