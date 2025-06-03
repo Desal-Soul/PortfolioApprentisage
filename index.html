@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Alexandre Deschanel</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <h1>Mon Grimoire de l'Aventurier Numérique</h1>
+  <nav>
+    <button id="burger-toggle" class="burger" aria-label="Ouvrir le menu">☰</button>
+    <div class="nav-grid container flex-container">
+      <div class="nav-item div-uniforme container" onclick="navigate('biographie')">À propos</div>
+      <div class="nav-item div-uniforme container" onclick="navigate('projets')">Projets</div>
+      <div class="nav-item div-uniforme container" onclick="navigate('portfolio')">Portfolio d'apprentissage</div>
+      <div class="nav-item div-uniforme container" onclick="navigate('contact')">Contact</div>
+      <div id="theme-toggle" class="nav-item div-uniforme container" onclick="toggleTheme()">🌙 Mode Nuit</div>
+    </div>
+  </nav>
+</header>
+
+<main id="content">
+  <!-- Le contenu dynamique sera injecté ici -->
+</main>
+
+<footer>
+  <div class="cote spaceb">
+    <p>Alexandre Deschanel | 2025 | Tous droits réservés &copy; </p>
+    <a href="https://drive.google.com/file/d/11aUs3YXfnxIwBUMoW_pXFPsYvG7buz1h/view?usp=sharing"><img class="icon" src="img/cv.png" alt="CV"></a>
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
